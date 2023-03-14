@@ -99,7 +99,6 @@ header{
 .editors-choice .title{
     text-align: center;
     font-size: 48px;
-    background-color: antiquewhite;
 }
 .card{
     width: 25%;
@@ -143,6 +142,7 @@ header{
     border-radius: 0 0 20px 20px;
 }
 
+/* quote section styling */
 .quote-section{
     height: 40vh;
     
@@ -155,12 +155,12 @@ header{
     gap: 20px;
 }
 .quote-section .quote-container p{
-    font-size: 3.5rem;
+    font-size: 2rem;
 }
 
 /* sign up section  */
 .sign-up{
-    height: 40vh;
+    height: 60vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -204,4 +204,13 @@ header{
     background-color: green;
     transition: all .50s ease;
     transform: scale(1.1);
+}
+
+/* footer styling */
+footer{
+    height: 100px;
+    background-color:rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
