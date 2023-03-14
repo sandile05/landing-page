@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
 }
 
 :root{
@@ -16,4 +18,29 @@
     --main-text-size: 48px;
     --secondary-text-size: 18px;
     --quote-text-size: 36px;
+    --logo-text-size: 24px;
+}
+
+.container{
+    width: 80vw;
+    margin: 0 auto;
+}
+
+/* header styling start  */
+header{
+    height: 80px;
+    display: flex;
+    background-color: bisque;
+    align-items: center;
+    justify-content: space-between;
+}
+.container .logo{
+    padding-left: 30px;
+    font-size: var(--logo-text-size);
+}
+
+.container .nav-bar ul{
+    display: flex;
+    gap: 10px;
+    padding-right: 30px;
 }
