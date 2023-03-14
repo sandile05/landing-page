@@ -133,3 +133,19 @@ header{
     background-color: antiquewhite;
     border-radius: 0 0 20px 20px;
 }
+
+.quote-section{
+    height: 30vh;
+    
+}
+.quote-section .quote-container{
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.quote-section .quote-container p{
+    font-size: 3.5rem;
+}
+
