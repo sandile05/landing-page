@@ -8,19 +8,18 @@
     scroll-behavior: smooth;
 }
 
-:root{
-    --bg-color: #1f2937;
-    --quote-bg: #e5e7eb;
-    --main-text: #f9faf8;
-    --logo: #f9faf8;
-    --secondary-text: #e5e7eb;
-    --button-bg: #3882f6;
+body{
+    background-color: var(--bg-color);
+}
 
+:root{
+    --bg-color: #ffebb4e8;
+    --bg-color2: #e5e7eb;
+    --main-text: #e69090;
 
     --main-text-size: 48px;
     --secondary-text-size: 18px;
-    --quote-text-size: 36px;
-    --logo-text-size: 24px;
+    --logo-text-size: 36px;
 }
 
 .container{
@@ -31,15 +30,17 @@
 
 /* header styling start  */
 header{
-    height: 80px;
+    height: 60px;
     display: flex;
-    background-color: bisque;
+    
     align-items: center;
     justify-content: space-between;
+    border-radius: 0 0 20px 20px;
 }
 .container .logo{
     padding-left: 30px;
     font-size: var(--logo-text-size);
+    color: var(--main-text);
 }
 
 .container .nav-bar ul{
@@ -49,6 +50,7 @@ header{
 }
 .container .nav-bar ul li{
     font-size: 20px;
+    color: var(--main-text)
 }
 .container .nav-bar ul li:hover{
     transform: scale(1.1);
@@ -66,11 +68,13 @@ header{
 }
 .hero h1{
     font-size: var(--main-text-size);
+    color: var(--main-text);
     margin: 30px;
 }
 .hero p{
     font-size: var(--secondary-text-size);
     margin: 0 30px;
+    color: rgb(102, 102, 102)
 }
 .hero .left{
     width: 40%;
@@ -99,6 +103,7 @@ header{
 .editors-choice .title{
     text-align: center;
     font-size: 48px;
+    color: var(--main-text);
 }
 .card{
     width: 25%;
@@ -138,8 +143,8 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: antiquewhite;
     border-radius: 0 0 20px 20px;
+    color: var(--main-text);
 }
 
 /* quote section styling */
@@ -156,6 +161,7 @@ header{
 }
 .quote-section .quote-container p{
     font-size: 2rem;
+    color: rgb(102, 102, 102)
 }
 
 /* sign up section  */
@@ -168,7 +174,6 @@ header{
 }
 .sign-up .sign-up-container{
     width: 60%;
-    background-color: antiquewhite;
     height: 150px;
     display: flex;
     align-items: center;
@@ -179,17 +184,17 @@ header{
     margin-left: 50px;
 }
 .sign-up .sign-up-container .left h2{
-    color: white;
+    color: rgb(102, 102, 102);
 }
 .sign-up .sign-up-container .left p{
-    color: white;
+    color: rgb(102, 102, 102);
 }
 .sign-up .sign-up-container .right{
     margin-right: 50px;
 }
 .sign-up .sign-up-container .right button{
     display: inline-block;
-    background-color: #7b38d8;
+    background-color: #FFBFA9;
     padding: 20px;
     width: 200px;
     color: #ffffff;
@@ -201,7 +206,7 @@ header{
     margin: 5px; 
 }
 .sign-up .sign-up-container .right button:hover{
-    background-color: green;
+    background-color: #FFEBB4;
     transition: all .50s ease;
     transform: scale(1.1);
 }
