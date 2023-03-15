@@ -179,15 +179,18 @@ header{
     align-items: center;
     justify-content: space-between;
     border-radius: 20px;
+    background: #cccccc;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 .sign-up .sign-up-container .left{
     margin-left: 50px;
 }
-.sign-up .sign-up-container .left h2{
+/* .sign-up .sign-up-container .left h2{
     color: rgb(102, 102, 102);
-}
-.sign-up .sign-up-container .left p{
+} */
+.sign-up .sign-up-container .left h2,p{
     color: rgb(102, 102, 102);
+    padding: 5px;
 }
 .sign-up .sign-up-container .right{
     margin-right: 50px;
