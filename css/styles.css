@@ -48,12 +48,12 @@ header{
     gap: 30px;
     padding-right: 30px;
 }
-.container .nav-bar ul li{
+.container .nav-bar ul li a{
     font-size: 20px;
     color: var(--main-text)
 }
-.container .nav-bar ul li:hover{
-    transform: scale(1.1);
+.container .nav-bar ul li a:hover{
+    color: rgb(102, 102, 102);
     transition: all .50s ease;
 }
 
@@ -74,7 +74,7 @@ header{
 .hero p{
     font-size: var(--secondary-text-size);
     margin: 0 30px;
-    color: rgb(102, 102, 102)
+    color: rgb(102, 102, 102);
 }
 .hero .left{
     width: 40%;
