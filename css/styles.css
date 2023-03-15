@@ -196,14 +196,17 @@ header{
     display: inline-block;
     background-color: #FFBFA9;
     padding: 20px;
-    width: 200px;
+    /* width: 200px; */
     color: #ffffff;
     text-align: center;
-    border: 4px double #cccccc;
+    border: 2px double #cccccc;
     border-radius: 10px;
     font-size: 20px;
     cursor: pointer; 
     margin: 5px; 
+}
+.sign-up .sign-up-container .right button a{
+    color: rgb(102, 102, 102);
 }
 .sign-up .sign-up-container .right button:hover{
     background-color: #FFEBB4;
@@ -214,8 +217,11 @@ header{
 /* footer styling */
 footer{
     height: 100px;
-    background-color:rgba(0, 0, 0, 0.3);
+    background-color:rgba(11, 14, 24, 0.863);
     display: flex;
     align-items: center;
     justify-content: center;
+}
+footer p{
+    color: white;
 }
